@@ -62,7 +62,7 @@ int main(){
 						b = (frame & mask_B);
 						//g = ((frame >> 5) & mask_G);
 						//r = ((frame >> 11) & mask_R);
-						//V = rgb2hsv(r, g, b);
+						
 
 
 
@@ -89,7 +89,7 @@ int main(){
 					}
 				locx=(x/count);
 				locy=(y/count);
-				xil_printf("\%d &%d&\n%d \n%d \r\n",locx,locy,count,b);
+				xil_printf("%d &%d&\n%d \n%d \r\n",locx,locy,count,b);
 		}
 	}
 }

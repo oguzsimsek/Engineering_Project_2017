@@ -2,12 +2,12 @@
 
 Box Placing Device.
 
-system.pdf file shows top level design.
+system file shows top level design.
 
-ov7670_axi_capture.vhd file for ov7670_axi_stream_capture block in top-level design.
-debounce.vhd file for debounce block in top level-design.
-ov7670_controller.vhd, ov7670_register.vhd and i2c_sender.vhd files for ov7670_controller block in top-level design.
-proje.xdc file for constraint.
+ov7670_axi_capture file for ov7670_axi_stream_capture block in top-level design.
+debounce file for debounce block in top level-design.
+ov7670_controller, ov7670_register and i2c_sender files for ov7670_controller block in top-level design.
+proje file for constraint.
 
-vdma_main.c for vdma driver and box placing algorithm.
-vdma_api.c for vdma driver.
+vdma_main for vdma driver and box placing algorithm.
+vdma_api for vdma driver.

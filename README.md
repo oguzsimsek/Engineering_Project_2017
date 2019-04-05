@@ -1,5 +1,7 @@
 # Engineering_Project_2017
 
+Oguz_Simsek.pdf is report of the project
+
 Box Placing Device.
 
 system file shows top level design.
